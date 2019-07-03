@@ -8,13 +8,19 @@ var userChosenVariable = process.argv[3]
 switch (userChosenFunction) {
   case 'spotify-this-song':
     testvariable(userChosenVariable)
+    // console.log(`1`) testing to make sure swith is working
     break
   case 'concert-this':
     testvariable(userChosenVariable)
+    // console.log(`2`)
     break
   case 'movie-this':
+    testvariable(userChosenVariable)
+    // console.log(`3`)
     break
   case 'do-what-it-says':
+    testvariable(userChosenVariable)
+    // console.log(`4`)
     break
 }
 
